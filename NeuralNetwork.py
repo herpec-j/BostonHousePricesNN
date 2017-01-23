@@ -54,7 +54,7 @@ class Input(Layer):
         #
         # The most important property on an Input is value.
         # self.value is set during `topological_sort` later.
-        super.__init__()
+        super().__init__()
 
     def forward(self):
         # Do nothing because nothing is calculated.
